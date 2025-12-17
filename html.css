@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayush Nath Tiwari | Creative Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0653db6416.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- BACKGROUND EFFECT -->
+  <div class="gradient-bg"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Ayush<span>•</span></div>
+
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="menu-btn" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-card reveal">
+      <h1>Ayush Nath Tiwari</h1>
+      <h2>Full Stack Developer<br><span>Data Science Enthusiast</span></h2>
+      <p>
+        MTech-IT (Integrated) • IIPS, DAVV<br>
+        Turning ideas into interactive digital experiences.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn glow">Contact Me</a>
+        <a href="#skills" class="btn outline">Explore Skills</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h3 class="section-title">About Me</h3>
+
+    <div class="about-grid reveal">
+      <div class="glass-box">
+        <p>
+          I am <strong>Ayush Nath Tiwari</strong>, currently pursuing
+          <strong>MTech-IT (Integrated BTech + MTech)</strong> from
+          <strong>IIPS, DAVV</strong>.
+        </p>
+      </div>
+
+      <div class="glass-box">
+        <p>
+          My schooling was completed from
+          <strong>H.P Children’s Academy, Gorakhpur</strong>.
+          I specialize in building modern web applications and
+          exploring data-driven technologies.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <h3 class="section-title">What I Do</h3>
+
+    <div class="skills-grid">
+      <div class="skill neon reveal">
+        <i class="fas fa-code"></i>
+        <h4>Programming</h4>
+        <p>C, C++, Java, Python, JavaScript</p>
+      </div>
+
+      <div class="skill neon reveal">
+        <i class="fas fa-laptop-code"></i>
+        <h4>Full Stack Dev</h4>
+        <p>HTML, CSS, JS, APIs, Web Apps</p>
+      </div>
+
+      <div class="skill neon reveal">
+        <i class="fas fa-brain"></i>
+        <h4>Data Science</h4>
+        <p>Analysis, Visualization, Python</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h3 class="section-title">Let’s Connect</h3>
+
+    <div class="contact-card reveal">
+      <p><i class="fas fa-envelope"></i> at857795@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +91 7985051338</p>
+
+      <div class="socials">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Ayush Nath Tiwari • Crafted with passion
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
